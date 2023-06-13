@@ -1,4 +1,3 @@
-// Payment interface
 class Payment {
   pay(amount) {
     throw new Error("Method not implemented");
