@@ -3,7 +3,7 @@ const excelReport = require("./excelReportClass");
 
 // to add another class like sheet Report i can extend this class from report class
 // and add it below
-class generateReport {
+class generateReportClass {
   constructor(dataFromSourceA) {
     this.dataFromSourceA = dataFromSourceA;
   }
@@ -16,4 +16,4 @@ class generateReport {
   }
 }
 
-module.exports = generateReport;
+module.exports = generateReportClass;
