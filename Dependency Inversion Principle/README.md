@@ -1,15 +1,14 @@
 
-#Dependency Inversion Principle Example
+# Dependency Inversion Principle Example
 
-#Introduction
+# Introduction
 This project is an example implementation of the Dependency Inversion Principle using Node.js. It demonstrates how the principle can be applied to achieve flexible and decoupled code design.
 
-#Technologies Used
+# Technologies Used
 The project is built using the following technologies:
+Node.js
 
-    Node.js
-
-#Features
+# Features
 
     Payment class represents a payment with an amount.
     PaymentProcessor is an interface class that defines the contract for processing payments.
@@ -17,7 +16,7 @@ The project is built using the following technologies:
     Pay class represents a payment transaction and depends on an instance of PaymentProcessor to process the payment.
     The code demonstrates the usage of dependency injection and polymorphism to decouple the payment processing logic from the Pay class, allowing for easy extensibility and interchangeable payment processors.
 
-#Getting Started
+# Getting Started
 
 To run the project, follow these steps:
 
